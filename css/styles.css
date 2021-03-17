@@ -55,7 +55,8 @@ address {
   color: var(--white-color);
 }
 
-.whatwe-do-title {
+.whatwe-do-title,
+.ourteam-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
