@@ -138,3 +138,7 @@ button {
 .footer-bg {
   background-color: var(--bg-color);
 }
+
+.team-section-bgcolor {
+  background-color: var(--bg-button-color);
+}
