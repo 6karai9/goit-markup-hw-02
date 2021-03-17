@@ -136,7 +136,7 @@ button {
   list-style: none;
 }
 
-.footer-bg {
+footer {
   background-color: var(--bg-color);
 }
 
