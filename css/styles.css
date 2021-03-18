@@ -27,20 +27,19 @@ address {
   color: inherit;
 }
 
-.link:hover,
-.link:focus {
+.link-action:hover,
+.link-action:focus {
   color: var(--link-color);
 }
 
-.button:hover,
-:focus {
+.buttons-portfolio:hover,
+.buttons-portfolio:focus {
   background-color: var(--link-color);
   color: var(--white-color);
 }
 
 .nav-list {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-color);
@@ -66,7 +65,6 @@ address {
 
 .features-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.03em;
 }
@@ -102,11 +100,13 @@ address {
   background-color: var(--bg-button-color);
   border-style: none;
   border-radius: 5px;
-}
-
-button {
   font-family: inherit;
   cursor: pointer;
+}
+
+.order-button {
+  background-color: var(--link-color);
+  color: var(--white-color);
 }
 
 .hero-section {
